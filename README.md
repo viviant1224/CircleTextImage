@@ -23,7 +23,7 @@ circletextview:sub_first_character="true"     //make the first text's character 
 
 
 # How to use it
-First method:
+#First method:
 Step 1:
 
 import the lib to your project:
@@ -50,13 +50,23 @@ lvy:
 Step2:
 
 use in the xml:
+```
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+        android:id="@+id/ctimage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        circletextview:random_color="true"/>
+```
 
+And you can set Text in java code:
 
+```
+CircleTextImage ctimage = (CircleTextImage) findViewById(R.id.ctimage);
+ctimage.setText4CircleImage("swift");
+```
 
-
-
-
-Second method:you can import my lib to your project, and then:
+#Second method:
+you can import my lib to your project, and then:
 
 ```Java
   <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
@@ -95,7 +105,6 @@ Second method:you can import my lib to your project, and then:
   cti6.setText4CircleImage("Object-C");
   
 ```
-The Other method:
 
 
 
