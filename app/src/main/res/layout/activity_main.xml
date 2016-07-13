@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:circletextview="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="circletextimage.viviant.com.circletextimage.MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示随机颜色"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:random_color="true"/>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="显示文字首个字符"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:id="@+id/cti5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:sub_first_character="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="自定义字体颜色"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:id="@+id/cti6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:circle_text_color="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="自定义背景颜色颜色"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:circle_color="@color/colorPrimary"/>
+
+            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                circletextview:circle_color="#f48fb1"/>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="根据文字数量动态改变头像大小"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            android:id="@+id/cti1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            circletextview:random_color="true"/>
+
+        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            android:id="@+id/cti2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            circletextview:random_color="true"/>
+
+        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            android:id="@+id/cti3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            circletextview:random_color="true"/>
+
+        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            android:id="@+id/cti4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            circletextview:random_color="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
