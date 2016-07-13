@@ -23,7 +23,40 @@ circletextview:sub_first_character="true"     //make the first text's character 
 
 
 # How to use it
-First method,you can import my lib to your project, and then:
+First method:
+Step 1:
+
+import the lib to your project:
+gradle:
+```
+compile 'circletextimage.viviant.com.circletextimagelib:circletextimagelib:1.0.0'
+```
+maven:
+```
+<dependency>
+  <groupId>circletextimage.viviant.com.circletextimagelib</groupId>
+  <artifactId>circletextimagelib</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+```
+lvy:
+```
+<dependency org='circletextimage.viviant.com.circletextimagelib' name='circletextimagelib' rev='1.0.0'>
+  <artifact name='$AID' ext='pom'></artifact>
+</dependency>
+```
+
+Step2:
+
+use in the xml:
+
+
+
+
+
+
+Second method:you can import my lib to your project, and then:
 
 ```Java
   <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
