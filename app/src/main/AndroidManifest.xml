@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChangeSizeActivity" />
+        <activity android:name=".DefBGColorActivity" />
+        <activity android:name=".DefTextColorActivity" />
+        <activity android:name=".RandomBGColorActivity"/>
+        <activity android:name=".SubFirstCharacterActivity"/>
     </application>
 
 </manifest>
