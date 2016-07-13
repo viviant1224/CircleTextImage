@@ -1,4 +1,4 @@
-package circletextimage.viviant.com.circletextimage.view;
+package circletextimage.viviant.com.circletextimagelib.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import java.util.ArrayList;
 import java.util.List;
 
-import circletextimage.viviant.com.circletextimage.R;
+import circletextimage.viviant.com.circletextimagelib.R;
 
 
 /**

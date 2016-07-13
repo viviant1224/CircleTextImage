@@ -25,19 +25,19 @@
         android:layout_marginTop="20dp"
         android:orientation="vertical">
 
-        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+        <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
             android:id="@+id/cti1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             circletextview:random_color="true"/>
 
-        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+        <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
             android:id="@+id/cti2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             circletextview:random_color="true"/>
 
-        <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+        <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
             android:id="@+id/cti3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

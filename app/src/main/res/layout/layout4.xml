@@ -23,32 +23,32 @@
             android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>
 
-            <circletextimage.viviant.com.circletextimage.view.CircleTextImage
+            <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 circletextview:random_color="true"/>

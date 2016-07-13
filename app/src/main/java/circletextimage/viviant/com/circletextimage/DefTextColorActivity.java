@@ -2,10 +2,8 @@ package circletextimage.viviant.com.circletextimage;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
 
-import circletextimage.viviant.com.circletextimage.view.CircleTextImage;
+import circletextimage.viviant.com.circletextimagelib.view.CircleTextImage;
 
 public class DefTextColorActivity extends AppCompatActivity {
 

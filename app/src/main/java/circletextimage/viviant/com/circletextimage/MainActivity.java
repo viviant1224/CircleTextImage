@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import circletextimage.viviant.com.circletextimage.view.CircleTextImage;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override

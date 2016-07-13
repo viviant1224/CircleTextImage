@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CircleTextImage.iml" filepath="$PROJECT_DIR$/CircleTextImage.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circletextimagelib/circletextimagelib.iml" filepath="$PROJECT_DIR$/circletextimagelib/circletextimagelib.iml" />
     </modules>
   </component>
 </project>
