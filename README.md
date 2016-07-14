@@ -107,7 +107,8 @@ you can import my lib to your project, and then:
 ```
 
 #Contact
-Email:viviant1224@gmail.com
+Email:viviant1224@gmail.com   or 18686672327@163.com
+user:weiwei.huang
 
 
 # License
