@@ -3,7 +3,7 @@
 A round head, which can be stored on the text, suitable for contact head
 
 # show
-
+![image](https://github.com/viviant1224/CircleTextImage/blob/master/ShowcircleTextImage.gif)
 ![image](https://github.com/viviant1224/CircleTextImage/blob/master/PIC1.png)
 ![image](https://github.com/viviant1224/CircleTextImage/blob/master/PIC2.png)
 ![image](https://github.com/viviant1224/CircleTextImage/blob/master/PIC3.png)
