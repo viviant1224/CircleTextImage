@@ -23,26 +23,25 @@ circletextview:sub_first_character="true"     //make the first text's character 
 
 
 # How to use it
-#First method:
 Step 1:
 
 import the lib to your project:
 gradle:
 ```
-compile 'circletextimage.viviant.com.circletextimagelib:circletextimagelib:1.0.0'
+compile 'circletextimage.viviant.com.circletextimagelib:circletextimagelib:1.0.1'
 ```
 maven:
 ```
 <dependency>
   <groupId>circletextimage.viviant.com.circletextimagelib</groupId>
   <artifactId>circletextimagelib</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <type>pom</type>
 </dependency>
 ```
 lvy:
 ```
-<dependency org='circletextimage.viviant.com.circletextimagelib' name='circletextimagelib' rev='1.0.0'>
+<dependency org='circletextimage.viviant.com.circletextimagelib' name='circletextimagelib' rev='1.0.1'>
   <artifact name='$AID' ext='pom'></artifact>
 </dependency>
 ```
@@ -63,47 +62,6 @@ And you can set Text in java code:
 ```
 CircleTextImage ctimage = (CircleTextImage) findViewById(R.id.ctimage);
 ctimage.setText4CircleImage("swift");
-```
-
-#Second method:
-you can import my lib to your project, and then:
-
-```Java
-  <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
-    android:id="@+id/cti1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    circletextview:random_color="true"/>
-      
-  <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    circletextview:circle_color="#f48fb1"/>
-  
-  <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
-    android:id="@+id/cti6"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    circletextview:circle_text_color="#000000"/>
-  
-  
-  <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
-    android:id="@+id/cti5"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    circletextview:sub_first_character="true"/>
-  
-  
-  CircleTextImage cti1 = (CircleTextImage) findViewById(R.id.cti1);
-  cti1.setText4CircleImage("Java");
-  
-  CircleTextImage cti5 = (CircleTextImage) findViewById(R.id.cti5);
-  cti5.setText4CircleImage("python");
-  
-  
-  CircleTextImage cti6 = (CircleTextImage) findViewById(R.id.cti6);
-  cti6.setText4CircleImage("Object-C");
-  
 ```
 
 #Contact
