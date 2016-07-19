@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
@@ -106,33 +107,75 @@ public class CircleTextImage extends ImageView {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        int widthSpecMode = MeasureSpec.getMode(widthMeasureSpec);
-        int widthSpecSize = MeasureSpec.getSize(widthMeasureSpec);
-        int heightSpecMode = MeasureSpec.getMode(heightMeasureSpec);
-        int heightSpecSize = MeasureSpec.getSize(heightMeasureSpec);
+
+        int desiredWidth = 100 * 2;
+        int desiredHeight = 100 * 2;
+
+        int widthMode = MeasureSpec.getMode(widthMeasureSpec);
+        int widthSize = MeasureSpec.getSize(widthMeasureSpec);
+        int heightMode = MeasureSpec.getMode(heightMeasureSpec);
+        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+
+        int width;
+        int height;
 
         if (null != text && !text.trim().equals("")) {
             int realSize = (int)paintTextForeground.measureText(text) + 60;
             if (realSize < 200) {
-                realSize = 200;
+                realSize = 100 * 2;
             }
-            if (widthSpecMode == MeasureSpec.AT_MOST && heightSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(realSize, realSize);
-            } else if (widthSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(realSize, heightSpecSize);
-            } else if (heightSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(widthSpecSize, realSize);
+            //Measure Width
+            if (widthMode == MeasureSpec.EXACTLY) {
+                //Must be this size
+                width = widthSize;
+            } else if (widthMode == MeasureSpec.AT_MOST) {
+                //Can't be bigger than...
+                width = realSize;
+            } else {
+                //Be whatever you want
+                width = realSize;
+            }
+
+            //Measure Height
+            if (heightMode == MeasureSpec.EXACTLY) {
+                //Must be this size
+                height = heightSize;
+            } else if (heightMode == MeasureSpec.AT_MOST) {
+                //Can't be bigger than...
+                height = realSize;
+            } else {
+                //Be whatever you want
+                height = realSize;
             }
         } else {
-            if (widthSpecMode == MeasureSpec.AT_MOST && heightSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(200, 200);
-            } else if (widthSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(200, heightSpecSize);
-            } else if (heightSpecMode == MeasureSpec.AT_MOST) {
-                setMeasuredDimension(widthSpecSize, 200);
+            //Measure Width
+            if (widthMode == MeasureSpec.EXACTLY) {
+                //Must be this size
+                width = widthSize;
+            } else if (widthMode == MeasureSpec.AT_MOST) {
+                //Can't be bigger than...
+                width = Math.min(desiredWidth, widthSize);
+            } else {
+                //Be whatever you want
+                width = desiredWidth;
             }
+
+            //Measure Height
+            if (heightMode == MeasureSpec.EXACTLY) {
+                //Must be this size
+                height = heightSize;
+            } else if (heightMode == MeasureSpec.AT_MOST) {
+                //Can't be bigger than...
+                height = Math.min(desiredHeight, heightSize);
+            } else {
+                //Be whatever you want
+                height = desiredHeight;
+            }
+
         }
+
+        //MUST CALL THIS
+        setMeasuredDimension(width, height);
 
     }
 
@@ -203,7 +246,23 @@ public class CircleTextImage extends ImageView {
             colorList.add("#ff8a65");
             colorList.add("#f48fb1");
             colorList.add("#7986cb");
-            return colorList.get((int)(Math.random() * 16));
+            colorList.add("#FFFFE0");
+            colorList.add("#ADD8E6");
+            colorList.add("#DEB887");
+            colorList.add("#C0C0C0");
+            colorList.add("#AFEEEE");
+            colorList.add("#F0FFF0");
+            colorList.add("#FF69B4");
+            colorList.add("#FFE4B5");
+            colorList.add("#FFE4E1");
+            colorList.add("#FFEBCD");
+            colorList.add("#FFEFD5");
+            colorList.add("#FFF0F5");
+            colorList.add("#FFF5EE");
+            colorList.add("#FFF8DC");
+            colorList.add("#FFFACD");
+
+            return colorList.get((int)(Math.random() * colorList.size()));
         }
 
         /**
