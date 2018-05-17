@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_marginBottom="20dp"
         android:layout_height="wrap_content"
-        android:text="自定义背景颜色"/>
+        android:text="@string/custom_bg_color"/>
 
     <Button
         android:id="@+id/change_size"
@@ -29,20 +29,20 @@
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="随机背景颜色"/>
+        android:text="@string/random_bg_color"/>
 
     <Button
         android:id="@+id/sub_first_character"
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="显示一串文字的首个字符"/>
+        android:text="@string/show_first_char"/>
 
     <Button
         android:id="@+id/def_text_color"
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="自定义文字颜色"/>
+        android:text="@string/custom_text_color"/>
 
 </LinearLayout>

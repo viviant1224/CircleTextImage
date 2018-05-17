@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="显示随机颜色"/>
+            android:text="@string/random_bg_color"/>
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">

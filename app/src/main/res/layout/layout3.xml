@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="自定义字体颜色"/>
+            android:text="@string/custom_text_color"/>
 
         <LinearLayout
             android:layout_width="match_parent"
