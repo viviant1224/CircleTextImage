@@ -35,14 +35,14 @@
 
         <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
             android:id="@+id/cti2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             circletextview:random_color="true"/>
 
         <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
             android:id="@+id/cti3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             circletextview:random_color="true"/>
 
     </LinearLayout>
