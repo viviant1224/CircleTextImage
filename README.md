@@ -48,7 +48,7 @@ lvy:
 ```
 
 Step2:
-#Custom background color
+# Custom background color
 use in the xml:
 circletextview:circle_color="@color/colorPrimary"
 ```
@@ -57,7 +57,7 @@ circletextview:circle_color="@color/colorPrimary"
   android:layout_height="wrap_content"
   circletextview:circle_color="@color/colorPrimary"/>
 ```
-#Display random background color
+# Display random background color
 use in the xml:
 circletextview:random_color="true"
 ```
@@ -66,7 +66,7 @@ circletextview:random_color="true"
     android:layout_height="wrap_content"
     circletextview:random_color="true"/>
 ```
-#Display the first character of a text
+# Display the first character of a text
 use in the xml:
 circletextview:sub_first_character="true"
 ```
@@ -82,8 +82,7 @@ And you can set Text in java code:
 CircleTextImage cti5 = (CircleTextImage) findViewById(R.id.cti5);
 cti5.setText4CircleImage("python");
 ```
-
-#Custom font color
+# Custom font color
 use in the xml:
 circletextview:circle_text_color="yourcolor"
 ```
@@ -93,8 +92,7 @@ circletextview:circle_text_color="yourcolor"
     android:layout_height="wrap_content"
     circletextview:circle_text_color="#000000"/>
 ```
-
-#Dynamically changing the size of the head image according to the content
+# Dynamically changing the size of the head image according to the content
 use in the xml:
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
@@ -132,7 +130,7 @@ cti3.setText4CircleImage("中文，好好学习，天天");
 
 
 
-#Contact
+# Contact
 Email:viviant1224@gmail.com   or 18686672327@163.com
 user:weiwei.huang
 
