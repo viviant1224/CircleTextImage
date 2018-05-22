@@ -48,22 +48,89 @@ lvy:
 ```
 
 Step2:
-
+#Custom background color
 use in the xml:
+circletextview:circle_color="@color/colorPrimary"
 ```
 <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
-        android:id="@+id/ctimage"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        circletextview:random_color="true"/>
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  circletextview:circle_color="@color/colorPrimary"/>
 ```
-
+#Display random background color
+use in the xml:
+circletextview:random_color="true"
+```
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    circletextview:random_color="true"/>
+```
+#Display the first character of a text
+use in the xml:
+circletextview:sub_first_character="true"
+```
+ <circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:id="@+id/cti5"
+    android:layout_width="200dip"
+    android:layout_height="200dip"
+    circletextview:sub_first_character="true"/>
+```
 And you can set Text in java code:
 
 ```
-CircleTextImage ctimage = (CircleTextImage) findViewById(R.id.ctimage);
-ctimage.setText4CircleImage("swift");
+CircleTextImage cti5 = (CircleTextImage) findViewById(R.id.cti5);
+cti5.setText4CircleImage("python");
 ```
+
+#Custom font color
+use in the xml:
+circletextview:circle_text_color="yourcolor"
+```
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:id="@+id/cti6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    circletextview:circle_text_color="#000000"/>
+```
+
+#Dynamically changing the size of the head image according to the content
+use in the xml:
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+```
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:id="@+id/cti1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    circletextview:random_color="true"/>
+        
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:id="@+id/cti2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    circletextview:random_color="true"/>
+
+<circletextimage.viviant.com.circletextimagelib.view.CircleTextImage
+    android:id="@+id/cti3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    circletextview:random_color="true"/>
+```
+And you can set Text in java code:
+
+```
+CircleTextImage cti1 = (CircleTextImage) findViewById(R.id.cti1);
+cti1.setText4CircleImage("Java");
+
+CircleTextImage cti2 = (CircleTextImage) findViewById(R.id.cti2);
+cti2.setText4CircleImage("JavaScript");
+
+CircleTextImage cti3 = (CircleTextImage) findViewById(R.id.cti3);
+cti3.setText4CircleImage("中文，好好学习，天天");
+```
+
+
 
 #Contact
 Email:viviant1224@gmail.com   or 18686672327@163.com
