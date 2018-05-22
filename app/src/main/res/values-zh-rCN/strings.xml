@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">CircleTextImage</string>
     <string name="custom_bg_color">自定义背景颜色</string>
-    <string name="random_bg_color">显示随机颜色</string>
+    <string name="random_bg_color">显示随机背景颜色</string>
     <string name="show_first_char">显示文字首个字符</string>
     <string name="custom_text_color">自定义字体颜色</string>
+    <string name="fix_size4_text">根据内容动态改变头像大小</string>
 </resources>

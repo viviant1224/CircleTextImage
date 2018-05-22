@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="根据文字数量动态改变头像大小"/>
+        android:text="@string/fix_size4_text"/>
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">

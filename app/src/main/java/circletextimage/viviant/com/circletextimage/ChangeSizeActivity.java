@@ -18,7 +18,7 @@ public class ChangeSizeActivity extends AppCompatActivity{
         cti2.setText4CircleImage("JavaScript");
 
         CircleTextImage cti3 = (CircleTextImage) findViewById(R.id.cti3);
-        cti3.setText4CircleImage("好好学习，天天");
+        cti3.setText4CircleImage("中文，好好学习，天天");
 
 
     }

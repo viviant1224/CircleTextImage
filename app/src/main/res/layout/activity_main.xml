@@ -22,7 +22,7 @@
         android:layout_marginBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="根据内容动态改变头像大小"/>
+        android:text="@string/fix_size4_text"/>
 
     <Button
         android:id="@+id/random_bg_color"
