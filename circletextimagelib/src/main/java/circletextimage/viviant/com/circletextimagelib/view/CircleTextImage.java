@@ -106,7 +106,7 @@ public class CircleTextImage extends ImageView {
         int height;
 
         if (null != mText && !mText.trim().equals("")) {
-            mPaintTextForeground.setTextSize(textSizeRatio * 2 * 100);
+            mPaintTextForeground.setTextSize(textSizeRatio * 2 * 100);//adapt some telphone
             int realSize = (int) mPaintTextForeground.measureText(mText,0, mText.length()) + 60;
 
 
@@ -216,6 +216,10 @@ public class CircleTextImage extends ImageView {
 
     }
 
+    /**
+     * setText for the view.
+     * @param text
+     */
     public void setText4CircleImage(String text) {
         if (mSubFirstCharacter) {
             this.mText = CircleTextImageUtil.getInstance().subFirstCharacter(text);
